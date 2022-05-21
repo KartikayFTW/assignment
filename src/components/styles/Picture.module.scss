@@ -1,0 +1,24 @@
+.pic {
+   margin:10px;
+   width: 100%;
+   position: relative; 
+   &__image {
+    height: 731px;
+    width: 100%;
+   }
+   &__date {
+    position: absolute;
+    top: 70%;
+    width: 40%;
+    left: 22%;
+    text-align: center;
+    font-size: 13px;
+
+    &__heading {
+        margin-bottom: 10px;
+    }
+    &__description {
+        font-size: 13px;
+    }
+   }
+}
